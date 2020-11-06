@@ -1,0 +1,89 @@
+.soal {
+    display: none;
+}
+
+body {
+    width: 600px;
+    border: solid 1px #ddd;
+    margin: 0 auto;
+    border: solid 5px;
+    text-align: center;
+    color: black;
+    /* min-height:500px; */
+}
+
+.main-block {
+    min-height: 500px;
+    background: url(https://arenax-blobstorage.cdn.arkadiumhosted.com/arenax-games/BlackJack/0.37/build/resources/assets/thumbs/thumb2x.jpg);
+}
+
+h3 {
+    margin: 0px;
+    padding: 15px 0px;
+    color: white;
+}
+
+.soal .soal-body {
+    padding: 10px;
+}
+
+#dealer-stand,
+#player-stand {
+    display: center;
+}
+
+.soal span {
+    color: white;
+}
+
+.btn {
+    border: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: dodgerblue;
+}
+
+.soal h3 {
+    padding: 10px;
+    background: black;
+    color: white;
+}
+
+.soal .soal-body {
+    padding: 20px;
+}
+
+.soal .soal-options {
+    text-align: center;
+}
+
+#dealer-cards,
+#player-cards {
+    /* width: 200px; */
+    align-content: center;
+}
+
+div.card {
+    font-size: 10em;
+    border: 2px solid #aaa;
+    width: 50px;
+    height: 100px;
+    padding: 20px;
+    border: solid 1px #808080;
+    background-color: white;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 10pt;
+    color: black;
+    text-align: center;
+    margin: 2px;
+    border: solid 2px;
+}
+
+#dealer-first-b {
+    background: white;
+}

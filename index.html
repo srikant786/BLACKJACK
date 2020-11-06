@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Game</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="main-block">
+        <div class="soal"> </div>
+        <h3>Blackjack</h3>
+        <div>
+            <span id='dealer-stand' class="soal">[STAND] </span> Dealer's Hand - <span id='dealer-points'>?</span>
+        </div>
+        <div id="dealer-cards"></div>
+
+        <div>
+            <span id='player-stand' class="soal">[STAND] </span> Your Hand - <span id='player-points'>0</span>
+        </div>
+        <div id="player-cards"></div>
+        <div id='player-start'>
+            <input type="button" class="btn" id='play-start' value="Play!" />
+        </div>
+
+        <div id="player-move" class='soal'>
+            <input type="button" class="btn" id="play-hit" value="Hit" />
+            <input type="button" class="btn" id="play-stand" value="Stand" />
+        </div>
+    </div>
+</body>
+
+</html>
